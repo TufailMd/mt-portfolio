@@ -2,12 +2,17 @@
 
 import { Button } from "@/components/ui/button";
 import { Mail, Heart } from "lucide-react";
-import { FaGithub as Github  } from "react-icons/fa";
+import { FaGithub as Github } from "react-icons/fa";
 import { FaLinkedin as Linkedin } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export function Footer() {
-  const currYear = new Date().getFullYear();
+  const [currYear, setCurrYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="border-t bg-card">
       <div className="container mx-auto px-4 py-12">

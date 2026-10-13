@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    unoptimized: true,
+    domains: [
+      'images.unsplash.com',
+      'cdn.jsdelivr.net',
+      'raw.githubusercontent.com'
+    ]
+  },
 };
 
 export default nextConfig;
