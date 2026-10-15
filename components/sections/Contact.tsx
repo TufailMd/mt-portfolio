@@ -6,11 +6,11 @@ import { Mail } from "lucide-react";
 import { FaGithub as Github } from "react-icons/fa";
 import { FaLinkedin as Linkedin } from "react-icons/fa";
 import { Card } from "../ui/card";
-// import ContactForm from "../contact-form";
+import ContactForm from "../contact-form";
 import Image from "next/image";
 const Contact = () => {
   return (
-    <section className="container mx-auto px-4 py-20">
+    <section id="contact" className="container mx-auto px-4 py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -23,27 +23,27 @@ const Contact = () => {
           <p className="text-muted-foreground mb-8">
             I&apos;m always open to discussing new projects, creative ideas, or
             opportunities to be part of your visions.
-            
+
           </p>
           <div className="flex gap-4 mb-8">
             <Button variant={"outline"} size={"icon"} >
-              <a href="https://github.com/Aestheticsuraj234" target="_blank">
+              <a href="https://github.com/TufailMd" target="_blank">
                 <Github className="w-5 h-5" />
               </a>
             </Button>
             <Button variant={"outline"} size={"icon"} >
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/in/tufailmd" target="_blank">
                 <Linkedin className="w-5 h-5" />
               </a>
             </Button>
             <Button variant={"outline"} size={"icon"} >
-              <a href="mailto:josh@example.com" target="_blank">
+              <a href="mailto:jrtufailmd@gmail.com" target="_blank">
                 <Mail className="w-5 h-5" />
               </a>
             </Button>
           </div>
           <Card className="px-6 py-6">
-            {/* <ContactForm /> */}
+            <ContactForm />
           </Card>
         </motion.div>
         <motion.div

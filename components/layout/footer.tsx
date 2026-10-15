@@ -35,7 +35,7 @@ export function Footer() {
                 </a>
               </Button>
               <Button variant="outline" size="icon" >
-                <a href="mailto:john@example.com">
+                <a href="mailto:jrtufailmd@gmail.com">
                   <Mail className="w-4 h-4" />
                 </a>
               </Button>
@@ -72,16 +72,16 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-muted-foreground">
-                San Francisco, CA
+                Vadodara, Gujrat
               </li>
               <li>
-                <a href="mailto:john@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  john@example.com
+                <a href="mailto:jrtufailmd@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  jrtufailmd@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+917667013081" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 7667013081
                 </a>
               </li>
             </ul>
@@ -90,7 +90,7 @@ export function Footer() {
 
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currYear} John Doe. All rights reserved.
+            © {currYear} Md Tufail. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-red-500" /> using Next.js
